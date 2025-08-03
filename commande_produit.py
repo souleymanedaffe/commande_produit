@@ -197,3 +197,11 @@ for _, row in region_clients.iterrows():
         st.warning(f"Coordonnées manquantes pour la région: {region_name}")
 
 st_folium(m, width=700, height=500)
+
+# Signature
+st.markdown("""
+<div class="footer">
+    Réalisé par <strong>SOULEYMANE DAFFE - DATA SCIENTIST</strong>
+</div>
+""", unsafe_allow_html=True)
+
